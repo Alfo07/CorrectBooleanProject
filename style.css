@@ -1,0 +1,88 @@
+body{
+  background-image: url('sfondo.jpg');
+  background-size: cover;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+#Contenitore{
+  padding: 20px;
+}
+
+.Container{
+  margin: auto;
+  text-align: center;
+  width:1200px;
+	height:850px;
+	background-color: rgba(00,00,00,0.5);
+  border-radius: 3%;
+}
+
+header > img{
+  width: 250px;
+  padding-top: 100px;
+}
+
+header > h1{
+  margin: 0px;
+  color: #00ff00;
+}
+
+nav > div{
+  margin: auto;
+  width:1000px;
+	height:50px;
+	background-color:#00ff00;
+}
+
+#Bottoni{
+  padding: 10px;
+  margin: auto;
+}
+
+.Monopattino{
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:1000px;
+	height:100px;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+
+.Monopattino p{
+  margin: 2px;
+  font-size: 15px;
+}
+
+.Arrow:before{
+ content: "\27A4";
+ color: white;
+}
+
+#Carica1{
+  margin: 0px;
+  width:350px;
+	height:30px;
+  background-color: orange;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#Carica2{
+  margin-left: 0px;
+  width:600px;
+	height:30px;
+  background-color:#00ff00;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#Carica3{
+  margin-left: 0px;
+  width:150px;
+	height:30px;
+  background-color: red;
+  border-radius: 5px 5px 5px 5px;
+}
